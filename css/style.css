@@ -1,0 +1,37 @@
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    width:100%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns:repeat(19,40px);
+    grid-template-rows: repeat(22,40px);
+}
+
+.wall{
+    background-image: url(../img/mur.gif);
+    background-size: cover;
+    z-index: 1;
+}
+
+.ground{
+    background-image: url(../img/sol.gif);
+    background-size: cover;
+    z-index: 1;
+}
+
+.sweet{
+    background-image: url(../img/bonbon.gif);
+    background-size: cover;
+    z-index: 1;
+}
+
+.pacman{
+    background-image: url(../img/pacman4.gif);
+    background-size: cover;
+    z-index: 1000;
+
+}
